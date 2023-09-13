@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="180dp"
+    android:layout_margin="10dp"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_gravity="center"
+    android:background="@drawable/shape_dialog">
+
+    <ImageView
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:src="@drawable/off"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        app:tint="@color/black"></ImageView>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/spartan_regular"
+        android:textSize="15dp"
+        android:text="Are You Sure Want \n to LOGOUT...!"
+        android:gravity="center"></TextView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/no_Btn"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:background="@drawable/btn"
+            android:gravity="center"
+            android:layout_margin="10dp"
+            android:text="No"
+            android:layout_weight="1"></TextView>
+        <TextView
+            android:id="@+id/yes_Btn"
+            android:layout_width="match_parent"
+            android:background="@drawable/btn2"
+            android:textColor="@color/white"
+            android:layout_height="30dp"
+            android:gravity="center"
+            android:layout_margin="10dp"
+            android:text="Yes"
+            android:layout_weight="1"></TextView>
+
+    </LinearLayout>
+
+</LinearLayout>
