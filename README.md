@@ -1,3 +1,12 @@
+# Details
+i use firebase for storing realtime data into database and i use fire strome to store user profile pic and description. that can be changeable by the owner. i created app with complex ui design.
+1) first user can see first page of app is loading screen
+2) register if you new user
+3) login with your id/pass
+4) chat with user and enjoy amazing ui design and easy to understand.
+5) change your pic or description if you want too.
+6) logout your account.
+
 # chatapp_android_ui
 ![Screenshot (30)](https://github.com/imdesai00/chatapp_android/assets/115632510/454536b3-b9fa-43e1-9e0d-2ecacced732a)
 ![Screenshot (31)](https://github.com/imdesai00/chatapp_android/assets/115632510/07dec46a-0eb7-4d1d-9ba7-e6a386d0e5ec)
@@ -7,5 +16,4 @@
 ![Screenshot (32)](https://github.com/imdesai00/chatapp_android/assets/115632510/41da842f-95cf-41aa-ae0f-fd004df80b9c)
 ![Screenshot (33)](https://github.com/imdesai00/chatapp_android/assets/115632510/858be4b1-6476-4125-afdf-5ddf7e95760c)
 
-# Details
-i use firebase for storing realtime data into database and i use fire strome to store user profile pic and description. that can be changeable by the owner. i created app with complex ui design.
+
